@@ -14,8 +14,11 @@ class NestedMapConfigTest {
 
     @Test
     void getFirstNested() {
-        assertTrue(nestedMapConfig.getFirstNested().containsKey("second-nested"));
-        assertEquals("value1", nestedMapConfig.getFirstNested().get("second-nested").get("key1"));
-        assertEquals("value2", nestedMapConfig.getFirstNested().get("second-nested").get("key2"));
+        assertTrue(nestedMapConfig.getFirstNested().containsKey("second-nested1"));
+        assertEquals("value1-1", nestedMapConfig.getFirstNested().get("second-nested1").get("key1-1"));
+        assertEquals("value1-2", nestedMapConfig.getFirstNested().get("second-nested1").get("key1-2"));
+        assertEquals("value2-1", nestedMapConfig.getFirstNested().get("second-nested2").get("key2-1"));
+        assertEquals("value2-2", nestedMapConfig.getFirstNested().get("second-nested2").get("key2-2"));
+        assertEquals("value2-3", nestedMapConfig.getFirstNested().get("second-nested2").get("key2-3"));
     }
 }
