@@ -1,3 +1,23 @@
-simple:
+simple-config:
   keyExample1: ValueExample1
   key-example-2: ValueExample2 #Spring tried to match variables with different naming conventions.
+
+simple-map:
+  keyValueMap:
+    key1: value1
+    key2: value2
+
+nested-map:
+  first-nested:
+    second-nested:
+      key1: value1
+      key2: value2
+
+map-of-objects:
+  map:
+    internalObject1:
+      property1: value1-1
+      property2: value1-2
+    internalObject2:
+      property1: value2-1
+      property2: value2-2
