@@ -39,19 +39,19 @@ test-config:
 
 list-of-objects:
   list:
-    - name: list-1
+    - name: csiId
       subObject:
-        - name: subObject-1
+        - name: clusterName1
           values:
-            - sublist1-1-1
-            - sublist1-1-2
-        - name: subObject-2
+            - namespaces1
+            - namespaces2
+        - name: clusterName2
           values:
-            - sublist1-2-1
-            - sublist1-2-2
-    - name: list-2
+            - namespaces1
+            - namespaces2
+    - name: list-2 # csiId2
       subObject:
-        - name: subObject-1
+        - name: subObject-1 # clusterName
           values:
             - sublist1-1-1
             - sublist1-1-2
