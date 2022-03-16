@@ -35,3 +35,23 @@ test-config:
       key2-1: value2-1
       key2-2: value2-2
       key2-3: value2-3
+
+
+list-of-objects:
+  list:
+    - name: list-1
+      subObject:
+        - name: subObject-1
+          values:
+            - sublist1-1-1
+            - sublist1-1-2
+        - name: subObject-2
+          values:
+            - sublist1-2-1
+            - sublist1-2-2
+    - name: list-2
+      subObject:
+        - name: subObject-1
+          values:
+            - sublist1-1-1
+            - sublist1-1-2
