@@ -1,0 +1,3 @@
+simple:
+  keyExample1: ValueExample1
+  key-example-2: ValueExample2 #Spring tried to match variables with different naming conventions.
